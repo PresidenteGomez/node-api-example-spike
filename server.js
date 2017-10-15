@@ -17,7 +17,7 @@ MongoClient.connect(db.url, (err, database) => {
         console.log('Listening on ->', port);
     });
 
-})
+});
 
 
 
